@@ -1,0 +1,24 @@
+ body { background-color: black ;  
+      }    
+
+ 
+#letra {
+    color: black;
+
+}
+#ENVIAR {
+    background-color:white;
+    color: black;
+   
+}
+
+#XD {
+    display: flex;
+    justify-content: center;
+}
+.familia {
+    display: flex;
+    background-color: wheat;
+    color: white;
+
+}
