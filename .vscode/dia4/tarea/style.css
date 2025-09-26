@@ -29,12 +29,12 @@
   gap: 20px;
     color: white;
     height: 30px;
-}
+} 
  .main {
     background-color:rgb(250, 235, 215) ;
-    height: 400px;
+    height: 400px; }
 
-}
+
 .ext{
     padding: 10px;
  position: relative;
@@ -42,23 +42,25 @@
    
     
 }
-.an{
+ .an{
     margin-bottom: 8px;
 }
 .ex{
     margin-bottom: 8px;
 }
 
- .ima {
+  .ima {
     display: flex;
-    justify-content: center; 
+  justify-content: center;
     align-items: center;
  justify-content: flex-end;
  padding: 50px;
  position: relative;
- bottom: 85px;
-} 
- .boton {
+ bottom: 50px;
+ pointer-events: none;
+
+  }
+  .boton {
     background-color: rgb(76, 175, 80);
 width: 100px;
 color: white;
@@ -106,4 +108,5 @@ margin-bottom: 8px;
     justify-content: center;
      align-items: center; 
     
-}    
+}  
+  
