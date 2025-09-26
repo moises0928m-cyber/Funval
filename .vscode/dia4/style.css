@@ -1,0 +1,44 @@
+/* .dvi { border: solid green;
+
+} */
+ * { margin: 0; padding: 0; box-sizing: border-box; }
+ body {
+    background-color: azure; 
+    height: 100vh;
+    display: flex;
+}
+.cnt {
+    background-color: lightyellow;
+    height: 20%;
+    width: 100%;
+    display: flex;
+    flex-direction: column;
+}
+.todo {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+   
+}
+.nave {
+  background-color: moccasin;
+    height: 100%;
+    padding: 0% 10% 0% 0%;
+    display: flex;
+    
+    justify-content: center;
+}
+.hea {
+    
+   
+    display: flex;
+    justify-content: center;
+   
+}
+.cnt1 {
+    background-color: lightcyan;
+    height: 40%;
+    width: 20%;
+    display: flex;
+    flex-direction: row;
+}
