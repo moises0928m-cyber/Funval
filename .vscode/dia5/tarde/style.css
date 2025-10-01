@@ -1,0 +1,172 @@
+* { margin: 0; 
+    padding: 0; 
+    box-sizing: border-box; 
+}
+body{ 
+    height: 100vh;
+} 
+.header {
+  background-color: rgb(250, 192, 116);
+  color: white;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  height: 70px;
+  margin-bottom: 8px;
+  font-size: 35px;
+}
+.nmb{
+ color: rgb(0, 0, 0);
+height: 54%;
+ width: 100%;
+}
+
+.ca1 { 
+    background-color: red;
+ height: 80%; 
+ width: 100%;
+display:flex;
+justify-content: start;
+align-items: center;
+margin-bottom: 8px; 
+ font-size: 80px;
+}
+.ca2{
+    background-color: green;
+height: 80%; 
+ width: 100%; 
+  
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    margin-bottom: 8px; 
+    font-size: 80px;
+}
+.ca3{
+    background-color: red;
+ height: 80%; 
+ width: 100%;
+    display: flex;
+    justify-content: end;
+align-items: center;
+margin-bottom: 8px; 
+ font-size: 80px;
+}
+.pga2 {
+    display: none;
+}
+ .fote{
+    display: flex; 
+    justify-content: end;
+    flex-direction: column;
+ height: 50%;
+}
+.f1{
+    display: flex;
+    align-items: center;
+    justify-content: center;
+  height: 27%;
+    font-size: 25px;
+    background-color: yellow;
+}
+.f2{
+      display: flex;
+    align-items: center;
+    justify-content: center;
+    margin-top: 10px;
+    background-color: yellow;
+ height: 27%;
+    font-size: 25px;
+} 
+ @media (min-width:640px ) {
+    .header{
+        background-color: skyblue;
+        display: flex;
+        justify-content: start;
+    } 
+    body{
+        height: 60vh;
+    }
+.nmb{
+  display: flex;
+  gap: 8px; 
+  height: 118%;
+}
+.ca2{
+    background-color: red;
+    display: flex;
+    justify-content: end;
+}
+.ca3{
+    display: none;
+}
+.pga2{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    background-color: green;
+    height: 70%;
+    
+}
+.caj3{
+    font-size: 50px;
+}
+.f1{
+    height: 45%;
+}
+.f2{
+    height: 40%;
+}
+}
+@media (min-width:768px) {
+ .header{
+    background-color: green;
+}
+.pga2{
+    display: none;
+}
+ .nmb{ 
+    display: flex;
+    width: 100%;
+    height: 125%;
+ }
+ .ca1{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+ }
+ .ca2{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+ }
+.ca3{
+    display: block;
+    background-color: red;
+      display: flex;
+    align-items: center;
+    justify-content: center;
+}
+.fote{
+    flex-direction: row;
+
+    gap: 8px;
+
+}
+.f1{
+    position: relative;
+    top: 9px;
+width: 80%;
+height: 90%;
+}
+.f2{
+   width: 80%; 
+   height: 90%;
+}
+}
+ 
+
+
+
+
+    
