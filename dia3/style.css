@@ -13,11 +13,10 @@
 }
 
 #XD {
-    display: flex;
-    justify-content: center;
+   
 }
 .familia {
-    display: flex;
+    
     background-color: wheat;
     color: white;
 
