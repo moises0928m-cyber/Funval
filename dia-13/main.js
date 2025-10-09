@@ -9,7 +9,7 @@
 
 /* for (let n = 1; n <=10 ; n++){
 console.log(n);
-} */
+} 
 /*
 2. Muestra los números del 10 al 1 en orden descendente usando un bucle for.
 */
@@ -17,8 +17,8 @@ console.log(n);
 
 /* for (let n = 10; n >=1  ; n--){
 console.log(n);
-}
- */
+} */
+ 
 /*
 3. Muestra solo los números pares del 1 al 20 usando un bucle for.
 */
@@ -71,40 +71,77 @@ for (let n=1 ; n<=nmr ;n++ ){
 }
 console.log(nmr,"! = ",factorial) */
 /*
+
 9. Muestra los primeros 10 números cuadrados (1², 2², 3²…).
 */
 // RESPUESTA AQUÍ 👇
 
+/* for(let i=1; i<=10; i++){
+   console.log(i,"² = ",(i*i))
+} 
+ */
 /*
 10. Muestra los números del 1 al 50 y muestra "Múltiplo de 10" cuando corresponda.
 */
 // RESPUESTA AQUÍ 👇
-
+/* for (let i = 1; i <= 50; i++) {
+  if (i % 10 === 0) {
+    console.log(i + " → Múltiplo de 10");
+  } else {
+    console.log(i);
+  }
+} */
+/*  */
 /*
 11. Calcula la suma de los números pares entre 1 y 50.
 */
 // RESPUESTA AQUÍ 👇
-
+/* let suma=0;
+for(let i=2; i<=50; i+=2){
+suma +=i
+}
+console.log("la suma de los pares del 1 al 50 =",suma); */
 /*
 12. Calcula la suma de los números impares entre 1 y 50.
 */
 // RESPUESTA AQUÍ 👇
+/* let sum=0;
+for(let i=1; i<=50; i+=2){
+sum +=i
+}
+console.log("la suma de los pares del 1 al 50 =",sum); */
 
 /*
 13. Muestra los números del 1 al 20 e indica si cada uno es "par" o "impar".
 */
 // RESPUESTA AQUÍ 👇
-
+/* for(let i=1; i<=20; i++ ){
+   if (i%2===0) {
+      console.log(i,"es par")
+   } else {
+      console.log(i,"es impar")
+   }
+} */
 /*
 14. Muestra los números del 1 al 30 e indica si son múltiplos de 3.
 */
 // RESPUESTA AQUÍ 👇
-
+/* for(let i=1; i<=30; i+=2){
+   if (i%3===0) {
+      console.log(i,"es multiplo");
+      
+   }else {
+      console.log(i);
+      
+   }}   */
 /*
 15. Muestra un conteo regresivo desde 20 hasta 0.
 */
 // RESPUESTA AQUÍ 👇
-
+/*  for(let i=20; i>=0; i--){
+   console.log(i)
+ }
+ */
 // =======================================================
 // BUCLE WHILE (EJERCICIOS 16 - 25)
 // =======================================================
@@ -113,51 +150,126 @@ console.log(nmr,"! = ",factorial) */
 16. Muestra los números del 1 al 10 usando un bucle while.
 */
 // RESPUESTA AQUÍ 👇
-
+/* let x=1;
+while (x<=10) {
+   console.log(x)
+   x++;
+} */
 /*
 17. Muestra los números pares del 2 al 20 usando while.
 */
 // RESPUESTA AQUÍ 👇
-
+/* let y=2;
+while (y<=20) {
+   console.log(y)
+   y+=2;
+} */
 /*
 18. Muestra los números del 10 al 1 usando while.
 */
 // RESPUESTA AQUÍ 👇
-
+/* let x=10;
+while (x>=1) {
+   console.log(x);
+   x--;
+} */
 /*
 19. Muestra los números del 1 al 30, pero solo los múltiplos de 5.
 */
 // RESPUESTA AQUÍ 👇
+/*  let y=1;
 
+while (y<=30) {
+   if (y %5=== 0) {
+       console.log(y);
+}
+   y++;
+}  */
 /*
 20. Calcula la suma de los números del 1 al 20 usando while.
 */
 // RESPUESTA AQUÍ 👇
 
+/* let sum=0
+let i =1
+while (i<=20) {
+   sum+=i
+   i++;
+}  console.log(sum);
+ */
+
 /*
 21. Muestra los números del 1 al 15 e indica si son pares o impares usando while.
 */
 // RESPUESTA AQUÍ 👇
-
+/* let x=0;
+while (x<=14) {
+   x++;
+   if (x%2==0) {
+      console.log(x,"son par")
+   } else {
+      console.log(x,"son impar")
+   }
+} */
 /*
 22. Muestra la tabla de multiplicar del número 7 usando while.
 */
 // RESPUESTA AQUÍ 👇
+
+/* let a=7;
+let x=0
+while (x<=9) {
+
+  x++
+   
+   console.log(a,"x",x,"=", (a*x));
+} */
+
 
 /*
 23. Muestra los múltiplos de 4 entre 1 y 40 usando while.
 */
 // RESPUESTA AQUÍ 👇
 
+/* let x=1;
+while (x<=40) {
+   if (x%4===0) {
+      console.log(x)
+   }
+   x++;
+}
+ */
 /*
 24. Calcula el factorial de un número (por ejemplo 6) usando while.
 */
 // RESPUESTA AQUÍ 👇
 
+/* let nm=10;
+let f =1;
+let i=1
+
+while (i<=nm ) {
+   f *=i;
+   i++
+
+}console.log(nm,"!=",f ) */
+
+
+
+
 /*
 25. Muestra un conteo regresivo desde 15 hasta 0 usando while.
 */
 // RESPUESTA AQUÍ 👇
+
+
+/* let i =16;
+while (i>=2) {
+   i--
+   console.log(i);
+} */
+
+
 
 // =======================================================
 // BUCLE DO...WHILE (EJERCICIOS 26 - 30)
@@ -167,6 +279,10 @@ console.log(nmr,"! = ",factorial) */
 26. Muestra los números del 1 al 10 usando do...while.
 */
 // RESPUESTA AQUÍ 👇
+
+/* do {
+   let 
+} while (); */
 
 /*
 27. Pide un número y muestra su tabla de multiplicar usando do...while.
