@@ -409,7 +409,21 @@ if ((nmr !== "kevin" && nmr !== "Belen") ||  pass !== 1234) {
  while ((nmr !== "kevin" && nmr !== "Belen") ||  pass !== 1234) 
    console.log("Acceso autorizado");
  
- */ /* no pude quitarle el prompt cuando acceso denegado */
+ */ 
+
+
+ /* let nmr;
+let pass;
+let swch = true;
+do {
+  nmr = prompt("Nombre de usuario").toLowerCase();
+  pass = parseInt(prompt("Contraseña"));
+  if ((nmr !== "kevin" && nmr !== "Belen") || pass !== 1234) {
+    alert("Acesso denegado");
+  } else {
+    swch = false;
+  }
+} while (swch); */
 
 
 
@@ -456,7 +470,19 @@ if (i%5===0) {
 */
 // RESPUESTA AQUÍ 👇
  
-
+/* let nmr =parseInt(prompt("ingresa un numero"))
+let divisor=0;
+for(let i=1; i<=nmr; i++){
+if (nmr%i=== 0) {
+divisor++;
+}
+ }
+ if (divisor === 2) { 
+console.log(nmr,"es primo");
+} else {
+   console.log(nmr,"No es primo"); 
+} */
+  
 
 /*
 37. Simula un inicio de sesión:
