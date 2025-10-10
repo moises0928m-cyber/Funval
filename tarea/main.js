@@ -170,3 +170,92 @@ if(cumpleaños === "no") {
 }else { 
  console.log("Dato invalido");
 }  */
+
+
+
+ /* TAREA CALIFICADA 7 */
+
+/*  Ejercicio 1 – Área de triángulos múltiples
+Crea una función llamada calcularAreaTriangulo que reciba base y altura y devuelva el área:
+
+Pide al usuario 3 veces la base y altura de diferentes triángulos usando prompt.
+
+Usa un bucle for para solicitar los datos 3 veces.
+
+Usa condicional para verificar que base y altura sean mayores que 0.
+
+Muestra cada área en consola.
+ */
+
+/* function calcularAreaTriangulo(base, altura) {
+  if (base > 0 && altura > 0) {
+    let area = (base * altura) / 2;
+    return area;
+  } else {
+    return "Error: base y altura deben ser mayores que 0";
+  }
+}
+
+
+for (let i = 1; i <= 3; i++) {
+  let base = parseFloat(prompt("Ingresa la base del triángulo " + i + ":"));
+  let altura = parseFloat(prompt("Ingresa la altura del triángulo " + i + ":"));
+
+  let resultado = calcularAreaTriangulo(base, altura);
+  console.log("Área del triángulo " + i + ": " + resultado);
+} */
+
+
+
+
+/* Ejercicio 2 – Conversión de Celsius a Fahrenheit
+Crea una función convertirAFahrenheit que reciba un valor en Celsius y lo convierta a Fahrenheit:
+
+Pide al usuario 5 temperaturas mediante prompt.
+
+Usa un bucle para hacer las 5 conversiones.
+
+Usa un condicional para verificar que el valor ingresado sea un número.
+
+Muestra cada resultado en consola. */
+
+
+
+
+
+
+
+/* Ejercicio 3 – Contar vocales en un texto
+Crea una función contarVocales que reciba un texto y devuelva el número de vocales:
+
+Pide al usuario 3 textos mediante prompt.
+
+Usa un bucle para recorrer cada letra del texto.
+
+Usa condicionales para determinar si un carácter es vocal.
+
+Muestra en consola cuántas vocales tiene cada texto.
+ */
+/* Ejercicio 4 – Pares e impares en un rango
+Crea una función clasificarParesImpares que reciba dos números inicio y fin y:
+
+Use un bucle for para recorrer todos los números desde inicio hasta fin.
+
+Use condicional para imprimir si cada número es par o impar.
+
+Pide al usuario inicio y fin mediante prompt.
+
+Muestra el resultado en consola.
+ */
+/* Ejercicio 5 – Número mayor y suma
+Crea una función mayorYSuma que reciba 5 números separados y:
+
+Use un bucle para comparar cada número y encontrar el mayor.
+
+Use condicionales para verificar cuál es el mayor.
+
+Calcula también la suma de los 5 números.
+
+Pide al usuario los 5 números mediante prompt.
+
+Muestra en consola el número mayor y la suma total.  */

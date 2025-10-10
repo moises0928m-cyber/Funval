@@ -47,10 +47,10 @@ console.log(numero," x ",m, "=" ,(numero*m));
 6. Calcula la suma de los números del 1 al 100 usando un bucle for.
 */
 // RESPUESTA AQUÍ 👇
-/* let nm =1;
-for (let m = 1; m <= 99; m++ ){
-console.log(nm," + ",m, "=" ,(nm+ m));
-} */
+ /* let nm =0;
+for (let m = 1; m <= 100; m++ ){
+nm+=m;
+} console.log(nm); */
 /*
 7. Muestra los múltiplos de 3 entre 1 y 30 usando un bucle for.
 */
@@ -280,29 +280,70 @@ while (i>=2) {
 */
 // RESPUESTA AQUÍ 👇
 
-/* do {
-   let 
-} while (); */
+
+ /*   let i=1;
+ do {
+   console.log(i);
+   i++;
+} while (i<=10);  */ 
+
+ 
 
 /*
 27. Pide un número y muestra su tabla de multiplicar usando do...while.
 */
 // RESPUESTA AQUÍ 👇
 
+/* let nmr=parseInt(prompt("Ingrese un numero"))
+let x=0;
+do {
+   console.log(nmr,"x",x,"=",(nmr*x));
+   x++
+} while (x<=10); */
+
+
 /*
 28. Muestra los números del 10 al 1 usando do...while.
 */
 // RESPUESTA AQUÍ 👇
+
+/* let b=10;
+
+do {
+   console.log(b);
+   b--;
+} while (b>=1); */
+
+
 
 /*
 29. Muestra los números del 1 al 30 y muestra un mensaje cuando sea múltiplo de 6.
 */
 // RESPUESTA AQUÍ 👇
 
+/* let y=1
+do {
+   y++;
+   if (y%6===0) {
+      console.log(y);
+      
+   }
+} while (y<=30); */
+
+
+
 /*
 30. Calcula la suma de los números del 1 al 50 usando do...while.
 */
 // RESPUESTA AQUÍ 👇
+
+/* let suma=0;
+let i =1;
+do {
+   suma+=i
+   i++;
+} while (i<=50);
+console.log(suma); */
 
 // =======================================================
 // COMBINACIÓN DE TEMAS (EJERCICIOS 31 - 40)
@@ -314,10 +355,37 @@ while (i>=2) {
 */
 // RESPUESTA AQUÍ 👇
 
+/* let nmr=parseInt(prompt("Ingrese un numero"))
+
+for(let i=1; i<=nmr; i++ ){
+   if (i%3===0 &&i%5===0 ) {
+      console.log(i,"FizzBuzz");
+   } else if(i%3===0){
+      console.log(i,"Fizz");
+   }
+    else if(i%5===0){
+      console.log(i,"Buzz");
+   }
+   else {
+      console.log(i);
+   }
+}
+ */
+
+
 /*
 32. Pide al usuario un número y calcula su factorial usando un bucle.
 */
 // RESPUESTA AQUÍ 👇
+
+/* let nm=parseInt(prompt("Ingresa un numero"));
+let factoria=1;
+
+for(let i=1; i<=nm; i++ ){
+factoria *=i;
+}
+console.log(nm,"! = ",factoria); */
+
 
 /*
 33. Pide nombre de usuario y contraseña.
@@ -326,21 +394,69 @@ while (i>=2) {
 */
 // RESPUESTA AQUÍ 👇
 
+/* let nmr;
+let pass;
+
+do {
+   nmr=prompt("Nombre de usuario").toLowerCase();
+   pass =parseInt(prompt("Contraseña"))
+if ((nmr !== "kevin" && nmr !== "Belen") ||  pass !== 1234) {
+   
+   console.log("Acesso denegado");
+}
+}
+
+ while ((nmr !== "kevin" && nmr !== "Belen") ||  pass !== 1234) 
+   console.log("Acceso autorizado");
+ 
+ */ /* no pude quitarle el prompt cuando acceso denegado */
+
+
+
 /*
 34. Pide un número y muestra todos los pares hasta ese número.
    Luego muestra la cantidad total de pares encontrados.
 */
 // RESPUESTA AQUÍ 👇
 
+
+/* let nmr=parseInt(prompt("Ingresa el numero"))
+
+for(let i=0; i<=nmr; i+=2 ){
+console.log(i);
+
+
+}nmr/=2
+console.log ("Total de los pares",nmr); */
+
+
 /*
 35. Calcula la suma de todos los múltiplos de 3 y 5 entre 1 y 100.
 */
 // RESPUESTA AQUÍ 👇
 
+/* let nmr=0;
+for(let i=1; i<=100; i++){
+if (i%3===0) {
+   nmr+=i
+}
+} console.log(nmr)
+
+let suma=0;
+for(let i=1; i<=100; i++){
+if (i%5===0) {
+   suma+=i
+}
+} console.log(suma)
+
+ */
+
 /*
 36. Pide un número y muestra si es primo o no, usando un bucle para verificar divisores.
 */
 // RESPUESTA AQUÍ 👇
+ 
+
 
 /*
 37. Simula un inicio de sesión:
@@ -354,6 +470,8 @@ while (i>=2) {
 */
 // RESPUESTA AQUÍ 👇
 
+
+
 /*
 39. Muestra los números del 1 al 50.
    Si el número es divisible por 3 muestra "Fizz",
@@ -362,6 +480,23 @@ while (i>=2) {
 */
 // RESPUESTA AQUÍ 👇
 
+ /* let nmr=parseInt(prompt("Ingrese un numero"))
+
+for(let i=1; i<=nmr; i++ ){
+   if (i%3===0 &&i%5===0 ) {
+      console.log(i,"FizzBuzz");
+   } else if(i%3===0){
+      console.log(i,"Fizz");
+   }
+    else if(i%5===0){
+      console.log(i,"Buzz");
+   }
+   else {
+      console.log(i);
+   }
+} */ /* lo copie de copie de arriba */
+
+
 /*
 40. Juego de adivinar número:
    Genera un número aleatorio entre 1 y 10.
@@ -369,4 +504,4 @@ while (i>=2) {
    Da pistas si el número es mayor o menor.
    El juego termina cuando adivina.
 */
-/* // RESPUESTA AQUÍ 👇 */
+/* // RESPUESTA AQUÍ  /* 👇 */
