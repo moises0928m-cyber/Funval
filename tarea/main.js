@@ -220,11 +220,18 @@ Usa un condicional para verificar que el valor ingresado sea un número.
 Muestra cada resultado en consola. */
 
 
+/* function convertirAFahrenheit(Celsius) {
+  return ( Celsius * 9/5) + 32
 
+}
 
+for (let i = 1; i <= 5; i++) {
+  let prg = prompt("Ingresa la conversión " + i + ":");
+  let resultado =convertirAFahrenheit(prg);
+console.log("La conversio ",i,"es:",resultado,"°F");
 
-
-
+}
+ */
 /* Ejercicio 3 – Contar vocales en un texto
 Crea una función contarVocales que reciba un texto y devuelva el número de vocales:
 
@@ -235,7 +242,33 @@ Usa un bucle para recorrer cada letra del texto.
 Usa condicionales para determinar si un carácter es vocal.
 
 Muestra en consola cuántas vocales tiene cada texto.
+
  */
+
+
+
+
+/* function contarVocales (vocal){
+  let contador=0;
+  for (let i = 0; i < vocal.length; i++){
+ let letra=vocal[i]
+if (letra === "a" || letra === "e" || letra === "i" || letra === "o" || letra === "u") {
+  contador++;
+  
+ }
+      } 
+console.log("La frase tiene:",contador,"vocales")
+
+}
+ for (let i = 1; i <= 3; i++) {
+let prg=prompt("Ingresa el texto"+i+":").toLocaleLowerCase();
+ contarVocales(prg);
+} */
+
+
+
+
+
 /* Ejercicio 4 – Pares e impares en un rango
 Crea una función clasificarParesImpares que reciba dos números inicio y fin y:
 
@@ -259,3 +292,5 @@ Calcula también la suma de los 5 números.
 Pide al usuario los 5 números mediante prompt.
 
 Muestra en consola el número mayor y la suma total.  */
+
+
