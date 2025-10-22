@@ -279,6 +279,8 @@ Use condicional para imprimir si cada número es par o impar.
 Pide al usuario inicio y fin mediante prompt.
 
 Muestra el resultado en consola.
+
+
  */
 /* Ejercicio 5 – Número mayor y suma
 Crea una función mayorYSuma que reciba 5 números separados y:
@@ -292,5 +294,7 @@ Calcula también la suma de los 5 números.
 Pide al usuario los 5 números mediante prompt.
 
 Muestra en consola el número mayor y la suma total.  */
+
+
 
 
