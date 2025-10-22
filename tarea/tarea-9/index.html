@@ -1,0 +1,81 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <script src="./main.js" defer></script>
+    <link rel="stylesheet" href="./output.css">
+    <title>Document</title>
+</head>
+<body class=" h-screen flex items-center justify-center bg-black/75">
+    
+<!-- Práctica Calificada 9
+Objetivo
+Desarrollar una aplicación web funcional que permita gestionar tareas (crear, editar, eliminar, completar y filtrar) utilizando delegación de eventos en JavaScript para manejar todas las interacciones del usuario.
+
+ Descripción del trabajo
+Crea una mini aplicación web en HTML, CSS y JavaScript donde se pueda agregar, editar, eliminar y marcar tareas como completadas.
+El punto más importante es que todas las acciones deben manejarse mediante delegación de eventos, evitando asignar un listener individual a cada botón o tarea.
+
+Requisitos funcionales
+Agregar tareas:
+
+Campo de texto y botón “Agregar tarea”.
+
+Cada tarea debe mostrar su texto, un botón “Editar”, un botón “Eliminar” y un ícono o checkbox para marcar como completada.
+
+Editar tarea:
+
+Permitir modificar el texto y guardar los cambios.
+
+Eliminar tarea:
+
+Eliminar la tarea de la lista al hacer clic en “Eliminar”.
+
+Marcar como completada:
+
+Mostrar visualmente (por ejemplo, tachado o cambio de color).
+
+Filtrar tareas:
+
+Botones “Todas”, “Pendientes” y “Completadas” para filtrar la vista.
+
+Delegación de eventos:
+
+Todos los clics deben manejarse desde un único addEventListener asignado al contenedor principal.
+
+Identificar qué acción se realizó usando event.target o closest().
+
+Diseño y responsividad:
+
+Adaptar la interfaz para pantallas móviles y de escritorio.
+
+Aplicar estilos limpios con efectos hover o focus.
+
+Criterios de evaluación
+Criterio	Ponderación
+Funcionalidad completa (crear, editar, eliminar, marcar, filtrar)	40 %
+Uso correcto y justificado de delegación de eventos	25 %
+Código limpio, ordenado y comentado	15 %
+Diseño responsive y buena presentación visual	10 %
+Mejoras opcionales (localStorage, animaciones, etc.)	10 % -->
+
+<div id="padre" class="bg-white/100 p-10 border border-red-400">
+<div id="hijo" class="mb-4 border"> 
+    <h1  >Agregador de tareas</h1>
+</div>
+<div id="hijo" class="border"><input  type="text" placeholder="ir a bloquear por fraude">
+<button  class="border border-green-400 text-green-700  " >Aceptar</button>
+
+</div>
+<div id="hijo" class="flex flex-row gap-4 border "> 
+   <input id="nieto" type="radio"> <ul >
+        <li id="opaco" class="border border-slate-400 ">fraude</li>
+    </ul>
+    <button  class="border border-violet-400 ">eliminar </button><button  class="border border-amber-300">editar</button> 
+</div>
+
+</div>
+
+</body>
+</html>
